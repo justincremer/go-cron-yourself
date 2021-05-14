@@ -1,7 +1,19 @@
 package main
 
-import "fmt"
+import (
+	"log"
+	"fmt"
+	"os/exec"
+)
 
 func main() {
-	fmt.Printf("working\n")
+	cmd := exec.Command("git", "status", "--porcelain")
+	fmt.Printf("Command: %s\n", cmd.String())
+	
+	res, err := cmd.Output()
+	if err != nil {
+		log.Fatal(err)
+	}
+	
+	fmt.Printf("result: %s\n", res)
 }
