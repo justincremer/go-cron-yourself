@@ -2,6 +2,6 @@
 
 ## A cron clone written in Go
 
-### Config
-Contains 
+### Config example
+* * * * * * git status --porcelain
 

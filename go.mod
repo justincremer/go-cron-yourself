@@ -3,6 +3,7 @@ module github.com/justincremer/go-cron-yourself
 go 1.16
 
 require (
+	github.com/cweill/gotests v1.6.0 // indirect
 	github.com/davidrjenni/reftools v0.0.0-20210213085015-40322ffdc2e4 // indirect
 	github.com/fatih/gomodifytags v1.13.0 // indirect
 	github.com/go-delve/delve v1.6.0 // indirect
