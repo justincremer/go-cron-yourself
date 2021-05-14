@@ -6,7 +6,7 @@ import (
 	"syscall"
 	"time"
 
-	"gotorch/logger"
+	"go-cron-yourself/logger"
 )
 
 type taskItem struct {

@@ -1,7 +1,7 @@
 package monitor
 
 import (
-	"gotorch/logger"
+	"go-cron-yourself/logger"
 )
 
 func CheckStat() {

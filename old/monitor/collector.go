@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gotorch/task"
+	"go-cron-yourself/task"
 )
 
 func getCpuStat() string {

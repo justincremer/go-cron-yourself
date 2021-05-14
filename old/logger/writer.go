@@ -1,8 +1,8 @@
 package logger
 
 import (
-	"gotorch/common"
-	"gotorch/config"
+	"go-cron-yourself/common"
+	"go-cron-yourself/config"
 	"os"
 	"time"
 )
