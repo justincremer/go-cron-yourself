@@ -1,12 +1,18 @@
 package task
 
 import (
-	"log"
+	"errors"
 	"fmt"
+	"log"
 	"os/exec"
 	"strings"
-	"errors"
 )
+
+type Task struct {
+	Command  string
+	Calendar Calendar
+	Error    error
+}
 
 func Test(i string) {
 	cmd, err := CreateCmd(i)

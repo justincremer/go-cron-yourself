@@ -1,7 +1,7 @@
 package main
 
 import (
-	"bufio"
+	"buifio"
 	"bytes"
 	"os"
 	"runtime"

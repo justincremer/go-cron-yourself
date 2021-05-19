@@ -3,6 +3,7 @@ module github.com/justincremer/go-cron-yourself
 go 1.16
 
 require (
+	9fans.net/go v0.0.4 // indirect
 	github.com/cweill/gotests v1.6.0 // indirect
 	github.com/davidrjenni/reftools v0.0.0-20210213085015-40322ffdc2e4 // indirect
 	github.com/fatih/gomodifytags v1.13.0 // indirect
@@ -13,12 +14,15 @@ require (
 	github.com/mattn/go-runewidth v0.0.12 // indirect
 	github.com/peterh/liner v1.2.1 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
+	github.com/rogpeppe/godef v1.1.2 // indirect
 	github.com/russross/blackfriday v1.6.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/spf13/cobra v1.1.3 // indirect
+	github.com/yuin/goldmark v1.3.7 // indirect
 	go.starlark.net v0.0.0-20210511153848-cca21e7857d4 // indirect
 	golang.org/x/arch v0.0.0-20210502124803-cbf565b21d1e // indirect
+	golang.org/x/net v0.0.0-20210510120150-4163338589ed // indirect
 	golang.org/x/sys v0.0.0-20210514084401-e8d321eab015 // indirect
 	golang.org/x/tools v0.1.1 // indirect
 	golang.org/x/tools/gopls v0.6.11 // indirect
