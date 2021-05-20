@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/justincremer/go-cron-yourself/task"
+	"github.com/justincremer/go-cron-yourself/pron"
 )
 
 func main() {
-	cal, err := task.Create("123456", "123456", "12")
+	cal, err := pron.CreateCalendar("123456", "123456", "12")
 	if err != nil {
 		log.Fatal(err)
 	}
